@@ -11,12 +11,55 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141119025136) do
+ActiveRecord::Schema.define(version: 20141119133907) do
+
+  create_table "companies", force: true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "email_for_index"
+    t.string   "hashed_password"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "jobs", force: true do |t|
+    t.string   "title"
+    t.string   "category"
+    t.integer  "view_number"
+    t.text     "description"
+    t.string   "target"
+    t.string   "meet_date"
+    t.string   "type_of_employment"
+    t.string   "job_feature"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "company_id"
+  end
+
+  add_index "jobs", ["company_id"], name: "index_jobs_on_company_id"
+
+  create_table "matchings", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "job_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "matchings", ["job_id"], name: "index_matchings_on_job_id"
+  add_index "matchings", ["user_id"], name: "index_matchings_on_user_id"
+
+  create_table "tests", force: true do |t|
+    t.string   "title"
+    t.string   "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
-    t.string   "famiry_name"
+    t.string   "family_name"
     t.string   "given_name"
-    t.string   "famiry_name_kana"
+    t.string   "family_name_kana"
     t.string   "given_name_kana"
     t.string   "thumbnail"
     t.datetime "birth"

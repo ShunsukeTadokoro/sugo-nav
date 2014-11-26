@@ -1,0 +1,25 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "sugo-nav/config"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "sugo-nav/app/controllers"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "sugo-nav/app/models"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "sugo-nav/app/views"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/ShunsukeTadokoro/Dropbox-private/Dropbox/TechnicalRockstars/new_site"
+		}
+	]
+}

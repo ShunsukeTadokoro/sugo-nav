@@ -1,0 +1,451 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fade",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"sc",
+				"scTop"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"ext",
+				"extname"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"remove",
+				"removeAttr	.removeAttr()"
+			],
+			[
+				"outer",
+				"outerWidth	.outerWidth()"
+			],
+			[
+				"content",
+				"contentWidth"
+			],
+			[
+				"transition",
+				"transition-duration"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"im",
+				"index.html"
+			],
+			[
+				"sp",
+				"spFlag"
+			],
+			[
+				"lo",
+				"logo_footer.gif	w:-1 h:-1"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"trans",
+				"transition-duration"
+			],
+			[
+				"bg",
+				"bg_sideber_divider.png	w:4 h:2"
+			],
+			[
+				"img",
+				"img_step3.gif	w:78 h:135"
+			],
+			[
+				"sns",
+				"img_btn_sns2.png	w:42 h:41"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"project",
+				"Project: Add Folder"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"rmo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/config",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/app/controllers",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/app/models",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/app/views"
+	],
+	"file_history":
+	[
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp/002.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp/182.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp-relative/001.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp-relative/002.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp-relative/003.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp-relative/036.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp-relative/046.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp-relative/182.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp/js/function.js",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp-relative/css/base.css",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp/css/base.css",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp/css/pages.css",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp-relative/css/pages.css",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp-relative/js/function.js",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp-relative/css/styleguide.css",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/styleguide.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp/001.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp/003.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp/036.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp/046.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp/css/styleguide.css",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp/css/common.css",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/sp/css/docs/styleguide.html",
+		"/Users/ShunsukeTadokoro/Dropbox/03_オールフェスタ/01_テンプレート/00_PC_html5/js/function.js",
+		"/Users/ShunsukeTadokoro/Library/Application Support/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/softbank-card-sp.sublime-project",
+		"/Users/ShunsukeTadokoro/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ShunsukeTadokoro/Library/Application Support/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/001.html",
+		"/Users/ShunsukeTadokoro/git-project/softbank-card-sp/temp.html",
+		"/Users/ShunsukeTadokoro/Dropbox/04_トリコローズ/ソフトバンクカード/PC/htdocs/031.html",
+		"/Users/ShunsukeTadokoro/Desktop/wordpressログイン情報.txt",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/config/routes.rb",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/app/controllers/tops_controller.rb",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/app/views/tops/index.html.erb",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/README.md",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/.gitignore",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/Gemfile",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/db/migrate/20141119064219_create_companies.rb",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/db/migrate/20141119025136_create_users.rb",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/db/migrate/20141119065146_create_jobs.rb",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/app/models/user.rb",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/sugo-nav/db/migrate/20141119033011_create_companies.rb",
+		"/Users/ShunsukeTadokoro/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/.gitignore",
+		"/Users/ShunsukeTadokoro/git-project/sugo-nav/readme.md",
+		"/Users/ShunsukeTadokoro/memo_node/views/show.jade",
+		"/Users/ShunsukeTadokoro/memo_node/views/index.jade",
+		"/Users/ShunsukeTadokoro/memo_node/views/layout.jade",
+		"/Users/ShunsukeTadokoro/lessons/01.js",
+		"/Users/ShunsukeTadokoro/lessons/02.js",
+		"/Users/ShunsukeTadokoro/lessons/03.js",
+		"/Users/ShunsukeTadokoro/lessons/04.js",
+		"/Users/ShunsukeTadokoro/lessons/05.js",
+		"/Users/ShunsukeTadokoro/lessons/test.js",
+		"/Users/ShunsukeTadokoro/memo_node/server.js",
+		"/Users/ShunsukeTadokoro/scsho/app.js",
+		"/Users/ShunsukeTadokoro/lessons/03.txt",
+		"/Users/ShunsukeTadokoro/lessons/06b.js",
+		"/Users/ShunsukeTadokoro/lessons/06a.js",
+		"/Users/ShunsukeTadokoro/Dropbox-private/Dropbox/TechnicalRockstars/new_site/htdocs/sass/_page.scss",
+		"/Users/ShunsukeTadokoro/Dropbox-private/Dropbox/TechnicalRockstars/new_site/htdocs/sass/_base.scss",
+		"/Users/ShunsukeTadokoro/Dropbox-private/Dropbox/TechnicalRockstars/new_site/htdocs/sass/_webfont.scss",
+		"/Users/ShunsukeTadokoro/Dropbox-private/Dropbox/TechnicalRockstars/new_site/htdocs/index.html",
+		"/Users/ShunsukeTadokoro/git-project/rails20141108/Vagrantfile",
+		"/Users/ShunsukeTadokoro/git-project/sow-tokyo-sp/htdocs/index.html",
+		"/private/var/folders/pr/kzrr4_f92mz4bgw084wmsws40000gn/T/ae59f745-dcd9-4dee-81d7-180f99c19a13/public_html/techfund.jp/common/css/page2.css",
+		"/private/var/folders/pr/kzrr4_f92mz4bgw084wmsws40000gn/T/ae59f745-dcd9-4dee-81d7-180f99c19a13/public_html/techfund.jp/techfund_canvas_input.php",
+		"/Users/ShunsukeTadokoro/Desktop/canvas.php",
+		"/Users/ShunsukeTadokoro/git-project/milkcocoa_persone/persona.md",
+		"/private/var/folders/pr/kzrr4_f92mz4bgw084wmsws40000gn/T/ae59f745-dcd9-4dee-81d7-180f99c19a13/public_html/techfund.jp/mypage/entry.php",
+		"/Users/ShunsukeTadokoro/Downloads/コーポレート/moc/js/function.js",
+		"/Users/ShunsukeTadokoro/Documents/techfund/htdocs/js/function.js",
+		"/Users/ShunsukeTadokoro/Downloads/コーポレート/moc/css/base.css",
+		"/Users/ShunsukeTadokoro/Documents/techfund/htdocs/entry.html",
+		"/Users/ShunsukeTadokoro/Documents/techfund/htdocs/css/common.css",
+		"/Users/ShunsukeTadokoro/git-project/sow-tokyo-sp/htdocs/js/function.js",
+		"/Users/ShunsukeTadokoro/git-project/sow-tokyo-sp/htdocs/css/jquery.slidemenu.css",
+		"/Users/ShunsukeTadokoro/git-project/sow-tokyo-sp/htdocs/js/jquery.slidemenu.js",
+		"/Users/ShunsukeTadokoro/git-project/sow-tokyo-sp/htdocs/css/pages.css",
+		"/Users/ShunsukeTadokoro/Documents/techfund/htdocs/css/page.css",
+		"/Users/ShunsukeTadokoro/git-project/sow-tokyo-sp/htdocs/job/index.html",
+		"/Users/ShunsukeTadokoro/Documents/techfund/htdocs/index.html",
+		"/Users/ShunsukeTadokoro/Documents/techfund/htdocs/css/base.css",
+		"/Users/ShunsukeTadokoro/git-project/sow-tokyo-sp/htdocs/css/base.css",
+		"/Users/ShunsukeTadokoro/Documents/【1.home】141028_moc(2).png",
+		"/Users/ShunsukeTadokoro/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/ShunsukeTadokoro/Documents/00_PC_html5/index.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 385.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"number",
+			"<small class=\"text-small\">※半角数字4桁</small>",
+			"input-result",
+			"hyphen",
+			"footer-go-top",
+			"normal",
+			"/sp/",
+			"../img",
+			"input-result",
+			"footer-menu",
+			"5",
+			".3",
+			"a9b1ba",
+			"gray",
+			"2-",
+			"51",
+			"24",
+			"class=\"bold\"",
+			"19px",
+			"14px",
+			"14",
+			"40px",
+			"確定",
+			"40px 5px",
+			"main-wrap",
+			"13",
+			"\"/\"",
+			"test",
+			"=>",
+			"famiry",
+			"data",
+			"- ",
+			"3-",
+			"	1-",
+			"entryForm",
+			"mechanism2",
+			"mechanism1",
+			"q3_1",
+			"q4",
+			"problem2",
+			"q3_2",
+			"problem2",
+			"q3_2",
+			"problem1",
+			"q3_1",
+			" />",
+			"<br />",
+			"/>",
+			"top: 10px;",
+			"top: 13px;",
+			".single",
+			"Peasuke",
+			"color: #222",
+			"20px",
+			"indexItem h2",
+			"screen.height",
+			"right center",
+			"50px",
+			"href=\"#",
+			".height",
+			"height",
+			"Height",
+			"height",
+			".height",
+			"inner",
+			"outerHeight",
+			"common/",
+			" .step",
+			"<img src=\"img/index/img_s",
+			"  ",
+			"<a href=\"#\">",
+			"height: 49px;",
+			"<h2>FOU"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"Peaske"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 128.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "sudo-nav.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
