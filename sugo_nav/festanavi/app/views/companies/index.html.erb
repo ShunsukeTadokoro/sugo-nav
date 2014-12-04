@@ -1,0 +1,23 @@
+<h2>企業向けトップ</h2>
+
+<p>すごい企業向けトップ</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>会社メール</th>
+			<th colspan="3">操作</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<% @companies.each do |company| %>
+			<tr>
+				<td><%= company.email %></td>
+				<td><%= link_to 'Show', company %></td>
+				<td><%= link_to 'Edit', edit_company_path(company) %></td>
+				<td><%= link_to 'Destroy', company, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>

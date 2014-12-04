@@ -6,6 +6,10 @@ class ApplicationController < ActionController::Base
 	# deviseでのサインアップ時に名前入力欄を追加
 	before_filter :configure_permitted_parameters, if: :devise_controller?
 
+	def after_sign_in_path_for(resource)
+    company_url, id = params[:id]
+  end
+
 	protected
 		# StrongParameterに名前の項目を追加
 		def configure_permitted_parameters

@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+  resources :hoges
+
   devise_for :companies
+  resources :companies
 	devise_for :users, :controllers => {
 		:sessions      => "users/sessions",
 		:registrations => "users/registrations",

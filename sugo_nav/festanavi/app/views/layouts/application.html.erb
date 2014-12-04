@@ -16,34 +16,55 @@
 		</button>
 		<%= link_to 'すごい就職ナビ', root_path, class: 'navbar-brand' %>
 	</div>
-	<div class="navbar-collapse collapse navbar-responsive-collapse">
-	<ul class="nav navbar-nav">
-		<li><a href="#">仕事一覧</a></li>
-		<li><a href="#">企業一覧</a></li>
-	</ul>
-	<form class="navbar-form navbar-left">
-		<input type="text" class="form-control col-lg-8" placeholder="フリーワード検索">
-	</form>
+	<% unless controller.class.to_s == 'CompaniesController' %>
+		<ul class="nav navbar-nav">
+			<li><a href="#">仕事一覧</a></li>
+			<li><a href="#">企業一覧</a></li>
+		</ul>
+		<form class="navbar-form navbar-left">
+			<input type="text" class="form-control col-lg-8" placeholder="フリーワード検索">
+		</form>
+	<% end %>
 	<div class="collapse navbar-collapse" id="is_sp_hidden_nav">
 		<ul class="nav navbar-nav navbar-right">
-			<% if user_signed_in? %>
-				<li><a href="#"><%= image_tag current_user.image_url, :size => '26x26' %> <%= current_user.name %>さん</a></li>
-				<li><a href="#">メッセージ <span class="badge">3</span></a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">設定 <b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li><%= link_to 'プロフィール変更', edit_user_registration_path %></li>
-						<li class="divider"></li>
-						<li><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></li>
-					</ul>
-				</li>
+			<% if controller.class.to_s == 'CompaniesController'%>
+				<% if company_signed_in? %>
+					<li><a href="#"><%= current_company.name %></a></li>
+					<li><a href="#">メッセージ <span class="badge">3</span></a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">設定 <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><%= link_to 'プロフィール変更', edit_company_registration_path %></li>
+							<li class="divider"></li>
+							<li><%= link_to "ログアウト", destroy_company_session_path, method: :delete %></li>
+						</ul>
+					</li>
+				<% else %>
+					<li><%= link_to "企業サインイン", new_company_registration_path %></li>
+					<li><%= link_to "企業ログイン", new_company_session_path %></li>
+				<% end %>
 			<% else %>
-				<li><%= link_to "サインイン", new_user_registration_path %></li>
-				<li><%= link_to "ログイン", new_user_session_path %></li>
+				<% if user_signed_in? %>
+					<li><a href="#"><%= image_tag current_user.image_url, :size => '26x26' %> <%= current_user.name %>さん</a></li>
+					<li><a href="#">メッセージ <span class="badge">3</span></a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">設定 <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><%= link_to 'プロフィール変更', edit_user_registration_path %></li>
+							<li class="divider"></li>
+							<li><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></li>
+						</ul>
+					</li>
+				<% else %>
+					<li><%= link_to "サインイン", new_user_registration_path %></li>
+					<li><%= link_to "ログイン", new_user_session_path %></li>
+				<% end %>
 			<% end %>
 		</ul>
 	</div>
 </header>
+
+<%= controller.class.to_s %>
 
 <div class="container">
 	<% if flash[:notice] %>
@@ -61,6 +82,7 @@
 
 	<%= yield %>
 </div>
-<%= debug current_user %>
+<%= debug current_user if current_user %>
+<%= debug current_company if current_company %>
 </body>
 </html>

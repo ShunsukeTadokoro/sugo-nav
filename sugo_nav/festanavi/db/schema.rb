@@ -11,15 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141204122733) do
+ActiveRecord::Schema.define(version: 20141204134146) do
 
   create_table "companies", force: true do |t|
-    t.string   "email",                  default: "", null: false
-    t.string   "encrypted_password",     default: "", null: false
+    t.string   "name"
+    t.string   "email",                  default: "",                    null: false
+    t.string   "email_for_index",        default: "",                    null: false
+    t.string   "encrypted_password",     default: "",                    null: false
+    t.string   "image_url",              default: "company_default.png", null: false
+    t.text     "description",            default: "まだ説明がありません",          null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,  null: false
+    t.integer  "sign_in_count",          default: 0,                     null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
@@ -30,6 +34,13 @@ ActiveRecord::Schema.define(version: 20141204122733) do
 
   add_index "companies", ["email"], name: "index_companies_on_email", unique: true
   add_index "companies", ["reset_password_token"], name: "index_companies_on_reset_password_token", unique: true
+
+  create_table "hoges", force: true do |t|
+    t.string   "title"
+    t.string   "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "image_url",                        default: "user_default.jpg", null: false

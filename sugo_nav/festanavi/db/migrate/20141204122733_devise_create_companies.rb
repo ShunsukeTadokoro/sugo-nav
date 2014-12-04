@@ -1,9 +1,15 @@
 class DeviseCreateCompanies < ActiveRecord::Migration
   def change
     create_table(:companies) do |t|
+
+      t.string :name
       ## Database authenticatable
       t.string :email,              null: false, default: ""
+      t.string :email_for_index, null: false, default: ""
       t.string :encrypted_password, null: false, default: ""
+
+      t.string :image_url, null: false, default: "company_default.png"
+      t.text :description, null: false, default: "まだ説明がありません"
 
       ## Recoverable
       t.string   :reset_password_token
