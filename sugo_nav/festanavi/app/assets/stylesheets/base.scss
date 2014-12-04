@@ -1,0 +1,20 @@
+.btn-facebook{
+	background-color: #315096;
+	border-color: darken(#315096, 5%);
+	border-bottom-width: 4px;
+	color: #fff;
+	&:hover{
+		color: #fff;
+	}
+}
+
+
+.btn-twitter{
+	background-color: #55acee;
+	border-color: darken(#55acee, 5%);
+	border-bottom-width: 4px;
+	color: #fff;
+	&:hover{
+		color: #fff;
+	}
+}

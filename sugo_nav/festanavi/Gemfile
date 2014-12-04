@@ -39,6 +39,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise'
+gem 'bcrypt-ruby', '3.1.2'
 
 # oAuth
 gem 'omniauth', '~> 1.2.1'
